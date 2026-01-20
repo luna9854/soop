@@ -7,7 +7,7 @@ export const siteConfig = {
   title: "진영 노르웨이 숲 - 김해시 진영읍 프리미엄 아파트 분양",
   description:
     "진영역 도보 5분! 김해시 진영읍 프리미엄 아파트 진영 노르웨이 숲. 59㎡~84㎡, 총 240세대. 유림E&C 시공, 2027년 4월 입주 예정. 진영 신규 분양, 진영 아파트, 김해 부동산 정보. 관심고객 등록 시 특별 혜택!",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.xn--o80bl5megw59b5hapr.com",
 
   // SEO 키워드 - 공격적으로 확장
   keywords: [
