@@ -7,17 +7,11 @@ const nextConfig: NextConfig = {
         hostname: "**",
         protocol: "https",
       },
-      {
-        protocol: "https",
-        hostname: "lh3.googleusercontent.com",
-      },
-      {
-        protocol: "https",
-        hostname: "placehold.co",
-      },
     ],
-    // 외부 이미지 최적화 비활성화 - Supabase 타임아웃 방지
-    unoptimized: true,
+    // WebP 자동 변환 + 리사이징 활성화
+    formats: ["image/avif", "image/webp"],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 };
 
