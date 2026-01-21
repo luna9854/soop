@@ -44,8 +44,8 @@ export function RegistrationSection() {
         body: JSON.stringify({
           access_key: WEB3FORMS_ACCESS_KEY,
           to: "ajvls98@gmail.com",
-          subject: `[진영 노르웨이 숲] 관심고객 등록 - ${data.name}`,
-          from_name: "진영 노르웨이 숲 홈페이지",
+          subject: `[진영 유림 노르웨이숲] 관심고객 등록 - ${data.name}`,
+          from_name: "진영 유림 노르웨이숲 홈페이지",
           이름: data.name,
           연락처: data.phone,
           관심평형: data.interestedType,

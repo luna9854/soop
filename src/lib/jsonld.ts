@@ -18,7 +18,7 @@ export function generateJsonLd(): JsonLdGraph {
         url: siteConfig.url,
         logo: `${siteConfig.url}/그림1.png`,
         image: `${siteConfig.url}${siteConfig.ogImage}`,
-        description: "진영 노르웨이 숲 공식 분양 안내 - 김해시 진영읍 프리미엄 아파트",
+        description: "진영 유림 노르웨이숲 공식 분양 안내 - 김해시 진영읍 프리미엄 아파트",
         address: {
           "@type": "PostalAddress",
           streetAddress: siteConfig.contact.address,
@@ -53,7 +53,7 @@ export function generateJsonLd(): JsonLdGraph {
         "@type": "ApartmentComplex",
         "@id": `${siteConfig.url}/#residence`,
         name: siteConfig.property.name,
-        alternateName: ["진영 노르웨이숲", "유림 노르웨이 숲", "진영 유림 노르웨이 숲"],
+        alternateName: ["진영 유림 노르웨이숲", "유림 노르웨이 숲", "진영 유림 노르웨이 숲"],
         description: siteConfig.description,
         url: siteConfig.url,
         image: [
@@ -97,8 +97,8 @@ export function generateJsonLd(): JsonLdGraph {
       {
         "@type": "Product",
         "@id": `${siteConfig.url}/#product`,
-        name: "진영 노르웨이 숲 아파트 분양",
-        description: `김해시 진영읍 프리미엄 아파트 진영 노르웨이 숲. ${siteConfig.property.areas.min}~${siteConfig.property.areas.max}㎡, 총 ${siteConfig.property.totalUnits}세대, ${siteConfig.property.buildings}개동. 2027년 4월 입주 예정.`,
+        name: "진영 유림 노르웨이숲 아파트 분양",
+        description: `김해시 진영읍 프리미엄 아파트 진영 유림 노르웨이숲. ${siteConfig.property.areas.min}~${siteConfig.property.areas.max}㎡, 총 ${siteConfig.property.totalUnits}세대, ${siteConfig.property.buildings}개동. 2027년 4월 입주 예정.`,
         image: `${siteConfig.url}${siteConfig.ogImage}`,
         brand: {
           "@type": "Brand",
@@ -119,7 +119,7 @@ export function generateJsonLd(): JsonLdGraph {
           },
         },
         category: "아파트 분양",
-        keywords: "진영 아파트, 김해 분양, 진영 노르웨이 숲, 진영역 아파트",
+        keywords: "진영 아파트, 김해 분양, 진영 유림 노르웨이숲, 진영역 아파트",
       },
       // 웹사이트 정보
       {
@@ -201,7 +201,7 @@ export function generateJsonLd(): JsonLdGraph {
         mainEntity: [
           {
             "@type": "Question",
-            name: "진영 노르웨이 숲 위치는 어디인가요?",
+            name: "진영 유림 노르웨이숲 위치는 어디인가요?",
             acceptedAnswer: {
               "@type": "Answer",
               text: "경상남도 김해시 진영읍 진영리 258-4번지에 위치하며, 진영역에서 도보 5분 거리의 역세권 아파트입니다.",
@@ -209,7 +209,7 @@ export function generateJsonLd(): JsonLdGraph {
           },
           {
             "@type": "Question",
-            name: "진영 노르웨이 숲 입주 예정일은 언제인가요?",
+            name: "진영 유림 노르웨이숲 입주 예정일은 언제인가요?",
             acceptedAnswer: {
               "@type": "Answer",
               text: "2027년 4월 입주 예정입니다.",
@@ -217,7 +217,7 @@ export function generateJsonLd(): JsonLdGraph {
           },
           {
             "@type": "Question",
-            name: "진영 노르웨이 숲 평형은 어떻게 되나요?",
+            name: "진영 유림 노르웨이숲 평형은 어떻게 되나요?",
             acceptedAnswer: {
               "@type": "Answer",
               text: "59㎡(약 18평, 전용면적 기준)과 84㎡(약 25평, 전용면적 기준) 두 가지 평형으로 구성되어 있으며, 총 6개 타입(59A, 59B, 59C, 84A, 84B, 84C)이 있습니다.",
@@ -225,7 +225,7 @@ export function generateJsonLd(): JsonLdGraph {
           },
           {
             "@type": "Question",
-            name: "진영 노르웨이 숲 시공사는 어디인가요?",
+            name: "진영 유림 노르웨이숲 시공사는 어디인가요?",
             acceptedAnswer: {
               "@type": "Answer",
               text: "유림E&C(유림이앤씨)에서 시공합니다.",
@@ -233,7 +233,7 @@ export function generateJsonLd(): JsonLdGraph {
           },
           {
             "@type": "Question",
-            name: "진영 노르웨이 숲 총 세대수는 몇 세대인가요?",
+            name: "진영 유림 노르웨이숲 총 세대수는 몇 세대인가요?",
             acceptedAnswer: {
               "@type": "Answer",
               text: "총 240세대, 4개동, 지하 2층~지상 25층 규모입니다.",
@@ -241,7 +241,7 @@ export function generateJsonLd(): JsonLdGraph {
           },
           {
             "@type": "Question",
-            name: "진영 노르웨이 숲 주차는 몇 대인가요?",
+            name: "진영 유림 노르웨이숲 주차는 몇 대인가요?",
             acceptedAnswer: {
               "@type": "Answer",
               text: "세대당 1.4대의 주차 공간이 제공됩니다.",
@@ -249,7 +249,7 @@ export function generateJsonLd(): JsonLdGraph {
           },
           {
             "@type": "Question",
-            name: "진영 노르웨이 숲 분양 문의는 어디로 하나요?",
+            name: "진영 유림 노르웨이숲 분양 문의는 어디로 하나요?",
             acceptedAnswer: {
               "@type": "Answer",
               text: `분양사무소 전화번호 ${siteConfig.contact.phoneFormatted}로 문의하시거나, 홈페이지에서 관심고객 등록을 하시면 상담을 받으실 수 있습니다.`,
@@ -261,8 +261,8 @@ export function generateJsonLd(): JsonLdGraph {
       {
         "@type": "LocalBusiness",
         "@id": `${siteConfig.url}/#localbusiness`,
-        name: "진영 노르웨이 숲 분양사무소",
-        description: "진영 노르웨이 숲 아파트 분양 상담 및 안내",
+        name: "진영 유림 노르웨이숲 분양사무소",
+        description: "진영 유림 노르웨이숲 아파트 분양 상담 및 안내",
         url: siteConfig.url,
         telephone: siteConfig.contact.phone,
         priceRange: "$$",

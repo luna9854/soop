@@ -17,7 +17,7 @@ export function SitePlanSection() {
         <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg border border-border">
           <Image
             src="/유림노르웨이숲 단지배치도.png"
-            alt="진영 노르웨이 숲 단지 배치도 - 4개동 배치 및 주차장, 조경 계획"
+            alt="진영 유림 노르웨이숲 단지 배치도 - 4개동 배치 및 주차장, 조경 계획"
             fill
             className="object-contain bg-white"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1024px"

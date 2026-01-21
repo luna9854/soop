@@ -71,7 +71,7 @@ export function FloorPlanSection() {
             <div className="relative aspect-[3/4] md:aspect-[4/3] rounded-lg overflow-hidden shadow-lg border border-border bg-white">
               <Image
                 src={plan.image}
-                alt={`진영 노르웨이 숲 ${plan.type} 타입 평면도 - ${plan.area}`}
+                alt={`진영 유림 노르웨이숲 ${plan.type} 타입 평면도 - ${plan.area}`}
                 fill
                 className="object-contain p-4"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 896px"

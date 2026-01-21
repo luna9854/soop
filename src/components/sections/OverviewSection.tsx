@@ -33,7 +33,7 @@ export function OverviewSection() {
     <SectionWrapper id="overview" variant="gradient">
       <SectionHeading
         id="overview-heading"
-        subtitle="진영 노르웨이 숲의 상세 정보를 확인하세요"
+        subtitle="진영 유림 노르웨이숲의 상세 정보를 확인하세요"
       >
         단지 개요
       </SectionHeading>

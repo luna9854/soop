@@ -18,7 +18,7 @@ export function GallerySection() {
     <SectionWrapper id="gallery" className="bg-secondary/50">
       <SectionHeading
         id="gallery-heading"
-        subtitle="진영 노르웨이 숲의 아름다운 모습을 미리 만나보세요"
+        subtitle="진영 유림 노르웨이숲의 아름다운 모습을 미리 만나보세요"
       >
         갤러리
       </SectionHeading>

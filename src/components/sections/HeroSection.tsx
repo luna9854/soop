@@ -20,7 +20,7 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/투시도야경(아키픽셀).png"
-          alt="진영 노르웨이 숲 투시도 야경"
+          alt="진영 유림 노르웨이숲 투시도 야경"
           fill
           priority
           className="object-cover scale-105 animate-slow-zoom"

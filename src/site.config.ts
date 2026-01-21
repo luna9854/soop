@@ -4,7 +4,7 @@
 
 export const siteConfig = {
   name: "진영 유림 노르웨이숲",
-  title: "진영 노르웨이 숲 - 김해시 진영읍 프리미엄 아파트 분양",
+  title: "진영 유림 노르웨이숲 - 김해시 진영읍 프리미엄 아파트 분양",
   description:
     "진영역 차량 10분! 김해시 진영읍 프리미엄 아파트 진영 유림 노르웨이숲. 59㎡~84㎡, 총 551세대. 유림E&C 시공, 2029년 9월 입주 예정. 진영 신규 분양, 진영 아파트, 김해 부동산 정보. 관심고객 등록 시 특별 혜택!",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.xn--o80bl5megw59b5hapr.com",
@@ -12,8 +12,8 @@ export const siteConfig = {
   // SEO 키워드 - 공격적으로 확장
   keywords: [
     // 메인 키워드
-    "진영 노르웨이 숲",
-    "진영 노르웨이숲",
+    "진영 유림 노르웨이숲",
+    "진영 유림 노르웨이숲",
     "노르웨이 숲 진영",
     "진영 유림 노르웨이 숲",
 
@@ -97,8 +97,8 @@ export const siteConfig = {
 
   // 추가 SEO 메타
   seo: {
-    siteName: "진영 노르웨이 숲 공식 분양 안내",
-    author: "진영 노르웨이 숲 분양사무소",
+    siteName: "진영 유림 노르웨이숲 공식 분양 안내",
+    author: "진영 유림 노르웨이숲 분양사무소",
     publisher: "유림E&C",
     category: "부동산, 아파트, 분양",
     classification: "아파트 분양 정보",
@@ -117,7 +117,7 @@ export const siteConfig = {
   },
 
   author: {
-    name: "진영 노르웨이 숲",
+    name: "진영 유림 노르웨이숲",
   },
 
   ogImage: "/조감도.png",
@@ -180,25 +180,25 @@ export const siteConfig = {
 
   // 갤러리 이미지
   gallery: [
-    { src: "/조감도.png", alt: "진영 노르웨이 숲 조감도 - 김해시 진영읍 프리미엄 아파트", caption: "조감도" },
+    { src: "/조감도.png", alt: "진영 유림 노르웨이숲 조감도 - 김해시 진영읍 프리미엄 아파트", caption: "조감도" },
     {
       src: "/조감도(아키픽셀).png",
-      alt: "진영 노르웨이 숲 조감도 전경 - 진영역세권 아파트",
+      alt: "진영 유림 노르웨이숲 조감도 전경 - 진영역세권 아파트",
       caption: "조감도",
     },
     {
       src: "/조감도(야경)-02.png",
-      alt: "진영 노르웨이 숲 야경 조감도 - 진영 신규 분양 아파트",
+      alt: "진영 유림 노르웨이숲 야경 조감도 - 진영 신규 분양 아파트",
       caption: "야경 조감도",
     },
     {
       src: "/투시도야경(아키픽셀).png",
-      alt: "진영 노르웨이 숲 투시도 야경 - 유림E&C 프리미엄",
+      alt: "진영 유림 노르웨이숲 투시도 야경 - 유림E&C 프리미엄",
       caption: "투시도 야경",
     },
     {
       src: "/유림노르웨이숲 아이소.png",
-      alt: "진영 노르웨이 숲 단지 배치 - 240세대 4개동",
+      alt: "진영 유림 노르웨이숲 단지 배치 - 240세대 4개동",
       caption: "아이소메트릭",
     },
   ],
@@ -207,7 +207,7 @@ export const siteConfig = {
   legal: {
     disclaimer:
       "본 홈페이지의 이미지, CG, 내용은 소비자의 이해를 돕기 위한 것으로 실제와 다를 수 있습니다.",
-    copyright: "ⓒ 진영 노르웨이 숲. All rights reserved.",
+    copyright: "ⓒ 진영 유림 노르웨이숲. All rights reserved.",
   },
 } as const;
 
