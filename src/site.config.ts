@@ -6,7 +6,7 @@ export const siteConfig = {
   name: "진영 노르웨이 숲",
   title: "진영 노르웨이 숲 - 김해시 진영읍 프리미엄 아파트 분양",
   description:
-    "진영역 도보 5분! 김해시 진영읍 프리미엄 아파트 진영 노르웨이 숲. 59㎡~84㎡, 총 240세대. 유림E&C 시공, 2027년 4월 입주 예정. 진영 신규 분양, 진영 아파트, 김해 부동산 정보. 관심고객 등록 시 특별 혜택!",
+    "진영역 차량 10분! 김해시 진영읍 프리미엄 아파트 진영 유림 노르웨이숲. 59㎡~84㎡, 총 551세대. 유림E&C 시공, 2029년 9월 입주 예정. 진영 신규 분양, 진영 아파트, 김해 부동산 정보. 관심고객 등록 시 특별 혜택!",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.xn--o80bl5megw59b5hapr.com",
 
   // SEO 키워드 - 공격적으로 확장
@@ -69,7 +69,7 @@ export const siteConfig = {
     // 입주/청약
     "진영 입주",
     "진영 입주 예정",
-    "진영 2027 입주",
+    "진영 2029 입주",
     "진영 청약",
     "진영 아파트 청약",
     "김해 청약",
@@ -125,11 +125,11 @@ export const siteConfig = {
 
   // 단지 상세 정보
   property: {
-    name: "진영 노르웨이 숲",
+    name: "진영 유림 노르웨이숲",
     location: "경상남도 김해시 진영읍 진영리 258-4번지 일원",
-    totalUnits: 240,
+    totalUnits: 551,
     buildings: 4,
-    floors: "지하 2층 ~ 지상 25층",
+    floors: "지하 3층 ~ 지상 40층",
     types: ["59A", "59B", "59C", "84A", "84B", "84C"],
     areas: {
       min: 59,
@@ -137,23 +137,23 @@ export const siteConfig = {
       unit: "㎡",
     },
     constructor: "유림E&C",
-    moveInDate: "2027년 4월 예정",
-    parking: "세대당 1.4대",
+    moveInDate: "2029년 9월 예정",
+    parking: "세대당 1.5대",
     heating: "지역난방",
   },
 
   // 입지 환경
   location: {
     transportation: [
-      { name: "진영역", distance: "도보 5분", detail: "경전선 KTX 환승" },
-      { name: "부산신항", distance: "차량 15분", detail: "" },
-      { name: "김해공항", distance: "차량 20분", detail: "" },
+      { name: "진영역", distance: "차량 10분", detail: "경전선 KTX 환승" },
+      { name: "부산신항", distance: "차량 30분", detail: "" },
+      { name: "김해공항", distance: "차량 40분", detail: "" },
       { name: "남해고속도로 진영IC", distance: "차량 5분", detail: "" },
     ],
     education: [
-      { name: "진영초등학교", distance: "도보 10분", detail: "" },
-      { name: "진영중학교", distance: "도보 12분", detail: "" },
-      { name: "진영고등학교", distance: "도보 15분", detail: "" },
+      { name: "대흥초등학교", distance: "도보 3분", detail: "" },
+      { name: "진영중학교", distance: "도보 15분", detail: "" },
+      { name: "진영고등학교", distance: "도보 10분", detail: "" },
     ],
     amenities: [
       { name: "롯데마트 진영점", distance: "차량 5분", detail: "" },

@@ -53,7 +53,7 @@ export function LocationSection() {
     <SectionWrapper id="location" variant="gradient">
       <SectionHeading
         id="location-heading"
-        subtitle="진영역 도보 5분, 편리한 교통과 생활 인프라"
+        subtitle="진영역 차량 10분, 편리한 교통과 생활 인프라"
       >
         입지 환경
       </SectionHeading>
