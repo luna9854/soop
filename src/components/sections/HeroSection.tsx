@@ -77,7 +77,7 @@ export function HeroSection() {
         >
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-sm text-white/90">
             <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-            2027년 4월 입주 예정
+            2029년 9월 입주 예정
           </span>
         </div>
 
