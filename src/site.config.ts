@@ -156,10 +156,10 @@ export const siteConfig = {
       { name: "진영고등학교", distance: "도보 10분", detail: "" },
     ],
     amenities: [
-      { name: "롯데마트 진영점", distance: "차량 5분", detail: "" },
+      { name: "대형마트", distance: "차량 3분", detail: "" },
       { name: "진영읍행정복지센터", distance: "도보 8분", detail: "" },
-      { name: "김해시립 진영도서관", distance: "도보 10분", detail: "" },
-      { name: "진영공설시장", distance: "도보 7분", detail: "" },
+      { name: "한빛도서관", distance: "도보 10분", detail: "" },
+      { name: "진영공설운동장", distance: "차량 5분", detail: "" },
     ],
     development: [
       { name: "진영 도시재생 뉴딜사업", distance: "", detail: "2025년 완료 예정" },
