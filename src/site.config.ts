@@ -108,11 +108,11 @@ export const siteConfig = {
   },
 
   contact: {
-    phone: "055-905-2281",
-    phoneFormatted: "055-905-2281",
-    address: "경상남도 김해시 진영읍 진영리 258-4",
-    addressShort: "김해시 진영읍 진영리 258-4",
-    manager: "김혜수 실장",
+    phone: "010-6628-7266",
+    phoneFormatted: "010-6628-7266",
+    address: "경상남도 김해시 진영읍 여래로 5",
+    addressShort: "김해시 진영읍 여래로 5",
+    manager: "김수연 실장",
     blog: "https://m.blog.naver.com/sooyoon74/224151904946",
   },
 
